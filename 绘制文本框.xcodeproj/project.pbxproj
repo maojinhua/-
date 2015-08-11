@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F6921BB21B79F42D00B11CA1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6921BB11B79F42D00B11CA1 /* AppDelegate.swift */; };
+		F6921BB41B79F42D00B11CA1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6921BB31B79F42D00B11CA1 /* ViewController.swift */; };
+		F6921BB71B79F42D00B11CA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6921BB51B79F42D00B11CA1 /* Main.storyboard */; };
+		F6921BB91B79F42D00B11CA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6921BB81B79F42D00B11CA1 /* Assets.xcassets */; };
+		F6921BBC1B79F42D00B11CA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6921BBA1B79F42D00B11CA1 /* LaunchScreen.storyboard */; };
+		F6921BC71B79F42D00B11CA1 /* _____Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6921BC61B79F42D00B11CA1 /* _____Tests.swift */; };
+		F6921BD21B79F42D00B11CA1 /* _____UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6921BD11B79F42D00B11CA1 /* _____UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F6921BC31B79F42D00B11CA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6921BA61B79F42C00B11CA1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6921BAD1B79F42D00B11CA1;
+			remoteInfo = "绘制文本框";
+		};
+		F6921BCE1B79F42D00B11CA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6921BA61B79F42C00B11CA1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6921BAD1B79F42D00B11CA1;
+			remoteInfo = "绘制文本框";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F6921BAE1B79F42D00B11CA1 /* 绘制文本框.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "绘制文本框.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6921BB11B79F42D00B11CA1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F6921BB31B79F42D00B11CA1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F6921BB61B79F42D00B11CA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F6921BB81B79F42D00B11CA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F6921BBB1B79F42D00B11CA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F6921BBD1B79F42D00B11CA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6921BC21B79F42D00B11CA1 /* 绘制文本框Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "绘制文本框Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6921BC61B79F42D00B11CA1 /* _____Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_____Tests.swift"; sourceTree = "<group>"; };
+		F6921BC81B79F42D00B11CA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6921BCD1B79F42D00B11CA1 /* 绘制文本框UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "绘制文本框UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6921BD11B79F42D00B11CA1 /* _____UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_____UITests.swift"; sourceTree = "<group>"; };
+		F6921BD31B79F42D00B11CA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F6921BAB1B79F42D00B11CA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6921BBF1B79F42D00B11CA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6921BCA1B79F42D00B11CA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F6921BA51B79F42C00B11CA1 = {
+			isa = PBXGroup;
+			children = (
+				F6921BB01B79F42D00B11CA1 /* 绘制文本框 */,
+				F6921BC51B79F42D00B11CA1 /* 绘制文本框Tests */,
+				F6921BD01B79F42D00B11CA1 /* 绘制文本框UITests */,
+				F6921BAF1B79F42D00B11CA1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F6921BAF1B79F42D00B11CA1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F6921BAE1B79F42D00B11CA1 /* 绘制文本框.app */,
+				F6921BC21B79F42D00B11CA1 /* 绘制文本框Tests.xctest */,
+				F6921BCD1B79F42D00B11CA1 /* 绘制文本框UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F6921BB01B79F42D00B11CA1 /* 绘制文本框 */ = {
+			isa = PBXGroup;
+			children = (
+				F6921BB11B79F42D00B11CA1 /* AppDelegate.swift */,
+				F6921BB31B79F42D00B11CA1 /* ViewController.swift */,
+				F6921BB51B79F42D00B11CA1 /* Main.storyboard */,
+				F6921BB81B79F42D00B11CA1 /* Assets.xcassets */,
+				F6921BBA1B79F42D00B11CA1 /* LaunchScreen.storyboard */,
+				F6921BBD1B79F42D00B11CA1 /* Info.plist */,
+			);
+			path = "绘制文本框";
+			sourceTree = "<group>";
+		};
+		F6921BC51B79F42D00B11CA1 /* 绘制文本框Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F6921BC61B79F42D00B11CA1 /* _____Tests.swift */,
+				F6921BC81B79F42D00B11CA1 /* Info.plist */,
+			);
+			path = "绘制文本框Tests";
+			sourceTree = "<group>";
+		};
+		F6921BD01B79F42D00B11CA1 /* 绘制文本框UITests */ = {
+			isa = PBXGroup;
+			children = (
+				F6921BD11B79F42D00B11CA1 /* _____UITests.swift */,
+				F6921BD31B79F42D00B11CA1 /* Info.plist */,
+			);
+			path = "绘制文本框UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F6921BAD1B79F42D00B11CA1 /* 绘制文本框 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6921BD61B79F42D00B11CA1 /* Build configuration list for PBXNativeTarget "绘制文本框" */;
+			buildPhases = (
+				F6921BAA1B79F42D00B11CA1 /* Sources */,
+				F6921BAB1B79F42D00B11CA1 /* Frameworks */,
+				F6921BAC1B79F42D00B11CA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "绘制文本框";
+			productName = "绘制文本框";
+			productReference = F6921BAE1B79F42D00B11CA1 /* 绘制文本框.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F6921BC11B79F42D00B11CA1 /* 绘制文本框Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6921BD91B79F42D00B11CA1 /* Build configuration list for PBXNativeTarget "绘制文本框Tests" */;
+			buildPhases = (
+				F6921BBE1B79F42D00B11CA1 /* Sources */,
+				F6921BBF1B79F42D00B11CA1 /* Frameworks */,
+				F6921BC01B79F42D00B11CA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6921BC41B79F42D00B11CA1 /* PBXTargetDependency */,
+			);
+			name = "绘制文本框Tests";
+			productName = "绘制文本框Tests";
+			productReference = F6921BC21B79F42D00B11CA1 /* 绘制文本框Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F6921BCC1B79F42D00B11CA1 /* 绘制文本框UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6921BDC1B79F42D00B11CA1 /* Build configuration list for PBXNativeTarget "绘制文本框UITests" */;
+			buildPhases = (
+				F6921BC91B79F42D00B11CA1 /* Sources */,
+				F6921BCA1B79F42D00B11CA1 /* Frameworks */,
+				F6921BCB1B79F42D00B11CA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6921BCF1B79F42D00B11CA1 /* PBXTargetDependency */,
+			);
+			name = "绘制文本框UITests";
+			productName = "绘制文本框UITests";
+			productReference = F6921BCD1B79F42D00B11CA1 /* 绘制文本框UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F6921BA61B79F42C00B11CA1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Mao hua";
+				TargetAttributes = {
+					F6921BAD1B79F42D00B11CA1 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					F6921BC11B79F42D00B11CA1 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = F6921BAD1B79F42D00B11CA1;
+					};
+					F6921BCC1B79F42D00B11CA1 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = F6921BAD1B79F42D00B11CA1;
+					};
+				};
+			};
+			buildConfigurationList = F6921BA91B79F42C00B11CA1 /* Build configuration list for PBXProject "绘制文本框" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F6921BA51B79F42C00B11CA1;
+			productRefGroup = F6921BAF1B79F42D00B11CA1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F6921BAD1B79F42D00B11CA1 /* 绘制文本框 */,
+				F6921BC11B79F42D00B11CA1 /* 绘制文本框Tests */,
+				F6921BCC1B79F42D00B11CA1 /* 绘制文本框UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F6921BAC1B79F42D00B11CA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6921BBC1B79F42D00B11CA1 /* LaunchScreen.storyboard in Resources */,
+				F6921BB91B79F42D00B11CA1 /* Assets.xcassets in Resources */,
+				F6921BB71B79F42D00B11CA1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6921BC01B79F42D00B11CA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6921BCB1B79F42D00B11CA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F6921BAA1B79F42D00B11CA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6921BB41B79F42D00B11CA1 /* ViewController.swift in Sources */,
+				F6921BB21B79F42D00B11CA1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6921BBE1B79F42D00B11CA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6921BC71B79F42D00B11CA1 /* _____Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6921BC91B79F42D00B11CA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6921BD21B79F42D00B11CA1 /* _____UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F6921BC41B79F42D00B11CA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6921BAD1B79F42D00B11CA1 /* 绘制文本框 */;
+			targetProxy = F6921BC31B79F42D00B11CA1 /* PBXContainerItemProxy */;
+		};
+		F6921BCF1B79F42D00B11CA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6921BAD1B79F42D00B11CA1 /* 绘制文本框 */;
+			targetProxy = F6921BCE1B79F42D00B11CA1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F6921BB51B79F42D00B11CA1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6921BB61B79F42D00B11CA1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F6921BBA1B79F42D00B11CA1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6921BBB1B79F42D00B11CA1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F6921BD41B79F42D00B11CA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F6921BD51B79F42D00B11CA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F6921BD71B79F42D00B11CA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "绘制文本框/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "borsam.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F6921BD81B79F42D00B11CA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "绘制文本框/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "borsam.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F6921BDA1B79F42D00B11CA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "绘制文本框Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "borsam.-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/绘制文本框.app/绘制文本框";
+			};
+			name = Debug;
+		};
+		F6921BDB1B79F42D00B11CA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "绘制文本框Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "borsam.-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/绘制文本框.app/绘制文本框";
+			};
+			name = Release;
+		};
+		F6921BDD1B79F42D00B11CA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "绘制文本框UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "borsam.-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "绘制文本框";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F6921BDE1B79F42D00B11CA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "绘制文本框UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "borsam.-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "绘制文本框";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F6921BA91B79F42C00B11CA1 /* Build configuration list for PBXProject "绘制文本框" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6921BD41B79F42D00B11CA1 /* Debug */,
+				F6921BD51B79F42D00B11CA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6921BD61B79F42D00B11CA1 /* Build configuration list for PBXNativeTarget "绘制文本框" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6921BD71B79F42D00B11CA1 /* Debug */,
+				F6921BD81B79F42D00B11CA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F6921BD91B79F42D00B11CA1 /* Build configuration list for PBXNativeTarget "绘制文本框Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6921BDA1B79F42D00B11CA1 /* Debug */,
+				F6921BDB1B79F42D00B11CA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F6921BDC1B79F42D00B11CA1 /* Build configuration list for PBXNativeTarget "绘制文本框UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6921BDD1B79F42D00B11CA1 /* Debug */,
+				F6921BDE1B79F42D00B11CA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F6921BA61B79F42C00B11CA1 /* Project object */;
+}
