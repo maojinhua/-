@@ -14,6 +14,7 @@
 		F6921BBC1B79F42D00B11CA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6921BBA1B79F42D00B11CA1 /* LaunchScreen.storyboard */; };
 		F6921BC71B79F42D00B11CA1 /* _____Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6921BC61B79F42D00B11CA1 /* _____Tests.swift */; };
 		F6921BD21B79F42D00B11CA1 /* _____UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6921BD11B79F42D00B11CA1 /* _____UITests.swift */; };
+		F6921BE01B79F45400B11CA1 /* MyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6921BDF1B79F45400B11CA1 /* MyView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		F6921BCD1B79F42D00B11CA1 /* 绘制文本框UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "绘制文本框UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6921BD11B79F42D00B11CA1 /* _____UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_____UITests.swift"; sourceTree = "<group>"; };
 		F6921BD31B79F42D00B11CA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6921BDF1B79F45400B11CA1 /* MyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				F6921BB11B79F42D00B11CA1 /* AppDelegate.swift */,
+				F6921BDF1B79F45400B11CA1 /* MyView.swift */,
 				F6921BB31B79F42D00B11CA1 /* ViewController.swift */,
 				F6921BB51B79F42D00B11CA1 /* Main.storyboard */,
 				F6921BB81B79F42D00B11CA1 /* Assets.xcassets */,
@@ -255,6 +258,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6921BE01B79F45400B11CA1 /* MyView.swift in Sources */,
 				F6921BB41B79F42D00B11CA1 /* ViewController.swift in Sources */,
 				F6921BB21B79F42D00B11CA1 /* AppDelegate.swift in Sources */,
 			);
